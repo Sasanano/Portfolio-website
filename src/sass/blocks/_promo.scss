@@ -1,0 +1,21 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url('../img/main_bg.jpg') no-repeat 50%/cover;
+    padding-top: 305px;
+    &__title {
+        font-size: 36px;
+        color: #ffffff;
+    }
+    &__btns {
+        margin: 20px auto;
+    }   
+    &__link {
+        color: #ffffff;
+        font-weight: normal;
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}
